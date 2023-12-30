@@ -1,0 +1,9 @@
+[package]
+name = "inscription_lab"
+version = "0.0.0"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "a0e136a04" }
+
+[addresses]
+inscription_lab = "0x0"
